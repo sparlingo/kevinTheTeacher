@@ -7,7 +7,10 @@
     >
       <div class="navbar-brand">
         <a class="navbar-item" href="/">
-          <img src="~assets/buefy.png" alt="Buefy" height="28" />
+          <img src="~assets/favicon.png" alt="Buefy" height="28" />
+        </a>
+        <a class="navbar-item" href="/">
+          Kevin Sparling Teaching Portfolio
         </a>
 
         <div class="navbar-burger">
@@ -19,8 +22,8 @@
     </nav>
 
     <section class="main-content columns">
-      <aside class="column is-2 section">
-        <p class="menu-label is-hidden-touch">General</p>
+      <aside class="column is-3 section">
+        <p class="menu-label is-hidden-touch">Moreland University</p>
         <ul class="menu-list">
           <li v-for="(item, key) of items" :key="key">
             <NuxtLink :to="item.to" exact-active-class="is-active">
@@ -30,7 +33,7 @@
         </ul>
       </aside>
 
-      <div class="container column is-10">
+      <div class="container column is-9">
         <Nuxt />
       </div>
     </section>
@@ -44,14 +47,14 @@ export default {
     return {
       items: [
         {
-          title: 'Home',
-          icon: 'home',
-          to: { name: 'index' },
+          title: 'Module 1',
+          icon: 'numeric-1-circle',
+          to: { name: 'module1' },
         },
         {
-          title: 'Inspire',
-          icon: 'lightbulb',
-          to: { name: 'inspire' },
+          title: 'Module 2',
+          icon: 'numeric-2-circle',
+          to: { name: 'module2' },
         },
       ],
     }

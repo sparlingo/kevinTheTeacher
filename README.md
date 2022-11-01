@@ -1,4 +1,4 @@
-# kimble3
+# Kevin Sparling | The Teacher Man
 
 ## Build Setup
 
