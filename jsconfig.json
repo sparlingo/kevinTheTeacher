@@ -8,5 +8,8 @@
       "@@/*": ["./*"]
     }
   },
+  "extensions": [
+    ".vue"
+  ],
   "exclude": ["node_modules", ".nuxt", "dist"]
 }

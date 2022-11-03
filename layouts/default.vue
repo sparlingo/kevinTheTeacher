@@ -22,7 +22,7 @@
     </nav>
 
     <section class="main-content columns">
-      <aside class="column is-3 section">
+      <aside class="column is-2 section">
         <p class="menu-label is-hidden-touch">Moreland University</p>
         <ul class="menu-list">
           <li v-for="(item, key) of items" :key="key">
@@ -33,7 +33,7 @@
         </ul>
       </aside>
 
-      <div class="container column is-9">
+      <div class="container column is-10">
         <Nuxt />
       </div>
     </section>
